@@ -14,13 +14,20 @@ int main(int argc, char* argv[])
 		
 	}
 }
+/**
+\fn void countChar(char *pName)
+@param[in] pName Character pointer for a string that needs its characters counted
+**/
 
 void countChar(char *pName)
 {
 	cout << "There are 6 Characters\n";
 }
 
-
+/**
+\fn void countLine(char *pName)
+@param[in] pName Character pointer for a string that needs its lines counted
+**/
 void countLine(char *pName)
 {
 		cout << "There are 1 lines\n";
